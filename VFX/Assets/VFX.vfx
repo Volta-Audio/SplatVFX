@@ -59,7 +59,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: -93
     y: -357
-    width: 2218
+    width: 2219
     height: 2564
 --- !u!114 &114350483966674976
 MonoBehaviour:
@@ -224,7 +224,7 @@ MonoBehaviour:
     enumValues: []
     descendantCount: 0
   m_ImportDependencies: []
-  m_GraphVersion: 13
+  m_GraphVersion: 14
   m_ResourceVersion: 1
   m_SubgraphDependencies: []
   m_CategoryPath: 
@@ -494,7 +494,7 @@ MonoBehaviour:
   - {fileID: 8926484042661614749}
   - {fileID: 8926484042661614635}
   dataType: 0
-  capacity: 8388608
+  capacity: 3388608
   stripCapacity: 16
   particlePerStripCount: 16
   needsComputeBounds: 0
@@ -738,7 +738,7 @@ MonoBehaviour:
   zTestMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
-  excludeFromTAA: 0
+  excludeFromTUAndAA: 0
   sortingPriority: 0
   m_SubOutputs:
   - {fileID: 8926484042661614677}
@@ -763,83 +763,17 @@ MonoBehaviour:
   shaderGraph: {fileID: 4333940904281232215, guid: ba6fab3c458b65948b6b54b560dc6ad8, type: 3}
   materialSettings:
     m_PropertyNames:
-    - _RenderQueueType
-    - _AddPrecomputedVelocity
-    - _DepthOffsetEnable
-    - _ConservativeDepthOffsetEnable
-    - _TransparentWritingMotionVec
     - _AlphaCutoffEnable
-    - _TransparentSortPriority
-    - _UseShadowThreshold
-    - _DoubleSidedEnable
-    - _DoubleSidedNormalMode
-    - _DoubleSidedGIMode
-    - _TransparentDepthPrepassEnable
-    - _TransparentDepthPostpassEnable
-    - _SurfaceType
-    - _BlendMode
-    - _SrcBlend
     - _DstBlend
-    - _AlphaSrcBlend
     - _AlphaDstBlend
-    - _ZWrite
-    - _TransparentZWrite
     - _CullMode
-    - _EnableFogOnTransparent
     - _CullModeForward
-    - _TransparentCullMode
-    - _OpaqueCullMode
-    - _ZTestDepthEqualForOpaque
-    - _ZTestTransparent
-    - _TransparentBackfaceEnable
-    - _EnableBlendModePreserveSpecularLighting
-    - _StencilRef
-    - _StencilWriteMask
-    - _StencilRefDepth
-    - _StencilWriteMaskDepth
-    - _StencilRefMV
-    - _StencilWriteMaskMV
-    - _StencilRefDistortionVec
-    - _StencilWriteMaskDistortionVec
     m_PropertyValues:
-    - 4
     - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 0
-    - 1
-    - 2
-    - 0
-    - 0
-    - 0
-    - 1
-    - 0
-    - 1
     - 10
-    - 1
     - 10
     - 0
     - 0
-    - 0
-    - 1
-    - 0
-    - 2
-    - 2
-    - 4
-    - 4
-    - 0
-    - 0
-    - 0
-    - 6
-    - 1
-    - 9
-    - 33
-    - 43
-    - 4
-    - 4
   primitiveType: 1
   useGeometryShader: 0
 --- !u!114 &8926484042661614636
@@ -4576,7 +4510,7 @@ MonoBehaviour:
   zTestMode: 0
   useAlphaClipping: 0
   generateMotionVector: 0
-  excludeFromTAA: 0
+  excludeFromTUAndAA: 0
   sortingPriority: 1
   m_SubOutputs:
   - {fileID: 8926484042661614752}
@@ -9896,7 +9830,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children: []
   m_UIPosition: {x: 0, y: 0}
-  m_UICollapsed: 1
+  m_UICollapsed: 0
   m_UISuperCollapsed: 0
   m_InputSlots: []
   m_OutputSlots:
